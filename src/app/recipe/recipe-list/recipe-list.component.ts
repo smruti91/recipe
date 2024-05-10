@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent {
   recipes: Recipe[]=[
-    new Recipe('chicken','chicken tikka','	https://www.foodandwine.com/thmb/nDBGGuZzVOHIUkLT_…T-RECIPE0522-80072d93f7bc4bc7abf1dcf5b5317b0c.jpg')
+    new Recipe('Chicken','Chicken Tandoor','https://hips.hearstapps.com/hmg-prod/images/dutch-oven-roast-chicken-recipe-2-1664219307.jpg?crop=0.502xw:1.00xh;0.256xw,0&resize=1200:*'),
+    new Recipe('Paneer','Butter Pnneer','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh2FiGrxaiBd3GgFArMVc3TSH3K40MLT1l39PY0YXHtg&s'),
   ]
 }
